@@ -1,4 +1,7 @@
 ------------------------------- MODULE Voting -------------------------------
+(*
+The spec is created by Lamport. We complete the full proof.
+*)
 EXTENDS Integers, FiniteSets, TLAPS
 -----------------------------------------------------------------------------
 CONSTANT Value, Acceptor, Quorum
