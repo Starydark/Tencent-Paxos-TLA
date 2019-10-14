@@ -32,10 +32,9 @@ There are three experiments we have made:
 
 - Participant(Symmetry set): the set of all servers. e.g. {p1, p2, p3}
 - Value(Symmetry Set): the set of all value. e.g. {v1, v2}
-- Ballot(Redefine Nat): 0..2 or other bigger set
+- Ballot(Redefine Nat): the set of ballot numbers. e.g. 0..2 or other bigger set
 
 ### Invariants and Properties
 
-- Consistency (invariants)
-- SpecV => V!Spec (Properties)
-
+- Consistency: Invariant in model checking TPaxos and TPaxosAP satisfying Consistency.
+- SpecV => V!Spec: Properties in model checking refinement mapping.

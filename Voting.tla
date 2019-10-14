@@ -1,6 +1,7 @@
 ------------------------------- MODULE Voting -------------------------------
 (*
-The spec is created by Lamport. We complete the full proof.
+This is a high-level algorithm in which a set of processes cooperatively 
+choose a value. It's create by Lamport and added with full proof.
 *)
 EXTENDS Integers, FiniteSets, TLAPS
 -----------------------------------------------------------------------------

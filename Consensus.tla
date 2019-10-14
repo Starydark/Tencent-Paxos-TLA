@@ -1,4 +1,7 @@
 ----------------------------- MODULE Consensus ------------------------------
+(*
+A specification of the consensus problem.
+*)
 EXTENDS Integers, FiniteSets, Sets, TLAPS 
 -----------------------------------------------------------------------------
 CONSTANT Value  \* the set of values that can be chosen
