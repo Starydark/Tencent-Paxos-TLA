@@ -1,4 +1,4 @@
-# Tencent-Paxos-Tla
+# Tencent-Paxos-TLA+
 
 A project of using TLA+ to model the consensus algorithm in the paper [PaxosStore@VLDB2017](http://www.vldb.org/pvldb/vol10/p1730-lin.pdf) and the open-source [Tencent/paxosstore](https://github.com/Tencent/paxosstore).
 
