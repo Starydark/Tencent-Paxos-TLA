@@ -1,4 +1,10 @@
 ----------------------------- MODULE EagerVoting -----------------------------
+(*
+This is a high-level algorithm in which a set of processes cooperatively 
+choose a value. The only difference between EagerVoting and Voting is:
+In action VoteFor, we allow acceptor IncreaseMaxBal while VoteFor a 
+proposal.
+*)
 EXTENDS Sets
 ------------------------------------------------------------------------------
 CONSTANT Value, Acceptor, Quorum
