@@ -24,7 +24,7 @@ TPaxos(the consensus algorithm above) is a variant of basic Paxos, and we uncove
 
 There are three experiments we have made:
 
-- TPaxos and TPaxosAP satisfies Consistency.
+- TPaxos and TPaxosAP satisfy Consistency.
 - TPaxos refines Voting, TPaxosAP refines EagerVoting.
 - EagerVoting refines Consensus.
 
