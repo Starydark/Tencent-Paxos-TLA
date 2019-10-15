@@ -1,6 +1,6 @@
 -------------------- MODULE TPaxosAPWithVotes ------------------------
 (*
-We establish refinement mapping from TPaxos to Voting. 
+We establish refinement mapping from TPaxosAP to EagerVoting. 
 *)
 EXTENDS TPaxosAP
 
